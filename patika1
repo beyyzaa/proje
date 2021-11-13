@@ -1,0 +1,25 @@
+public class ÜsAlma {
+   public static int Recursive(){
+       
+       Scanner scan = new Scanner(System.in);
+       System.out.println("Taban sayısını giriniz : ");
+       int taban = scan.nextInt();
+       System.out.println("Üs sayısını giriniz : ");
+       int üs = scan.nextInt();
+       
+       
+      int result = (int) Math.pow(taban , üs);
+       
+               
+       return result;
+       
+       
+   }
+
+    
+    
+    public static void main(String[] args) {
+        System.out.println("Sonuç : " + Recursive());
+    }
+    
+}
